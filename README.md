@@ -36,40 +36,4 @@ It uses BeautifulSoup for extracting data efficiently.
 * Using command line inputs in Python programs
 
 
-
-
-# project2: (scraper.py)
-
-
-## Description
-
-This project is a Python program that compares how simialr two documents are.
-It processes the content, generates hashes for words, and applies a similarity hashing technique to create compact representations of documents.
-We compare fingerprints for each document to save time complexity and check near duplicate documents
-
-## Technologies Used
-
-* Python 3
-* Standard Python libraries
-* Hashing and text processing techniques
-
-## How to Run
-
-1. input two urls as command line inputs
-
-2. Run the program:
-   python scraper.py
-
-3. The program will output similarity-related results based on the processed documents.
-
-## Features
-
-* Converts text into tokens and frequency counts
-* Generates hashes for words
-* Uses simhash to create fingerprint of documents
-
-## Learning Outcomes
-
-* Understanding near duplicate documents comparison
-* Working with hashing concepts in Python
 * Applying algorithms for efficient comparison of data
